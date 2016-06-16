@@ -9,7 +9,6 @@ class View
 
   def add(task)
     puts "Agregaste la tarea \"#{task.activity}\" a tu lista" #Se escaparon las comillas con la diagonal invertida para que no las tome en cuenta en el string#
-    
   end
 
   def delete(num_to_delete)
@@ -18,7 +17,6 @@ class View
 
   def complete(task)
     puts "Se ha completado la tarea #{task.activity}"
-    
   end
 
 end
